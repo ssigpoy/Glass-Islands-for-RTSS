@@ -1,4 +1,4 @@
-# Adderley Overlays for RTSS
+# Glass Islands for RTSS
 
 [简体中文](README.zh-CN.md)
 
@@ -30,6 +30,10 @@ All three themes use the same layout and alert rules. Each regular panel is 30 p
 5. At 2560 × 1440 and 1× scaling, the overlay is positioned at the top center. If RTSS uses a different font, select **Raster 3D**, **Adderley Bold**, **13 pt**, and **1×** scaling in the active game profile. Existing OSD offsets can affect placement.
 
 FPS and frame time come from RTSS. Hardware readings come from OverlayEditor's HAL. Live FPS appears while RTSS is monitoring a supported game. Available sensors depend on the GPU, driver, and RTSS version.
+
+## 1080p compatibility
+
+The same PNG atlases can be reused at 1920 × 1080. They contain sprites for the panels, icons, bars, and alerts, and the layout controls their position and display size. The included layouts were built for 2560 × 1440. To center the 1046 px strip on a 1920 px canvas at 1× scale, subtract **320 px from every layer’s X position**, including the clock and alert layers. The new left edge is **437 px**. The repository currently ships only the 1440p layouts. The 1080p coordinates are calculated from the layout and have not been tested in-game.
 
 ## Stutter and sustained-load alerts
 
@@ -63,6 +67,11 @@ Once a spike is detected, the layout compares hardware utilization with the samp
 ## Build notes and credits
 
 - [Guide to building an RTSS overlay with an agent (Chinese)](docs/agent-guide.md)
-- [Third-party assets and licenses](docs/third-party-notices.md)
+- **Adderley Bold font** was designed by gorohovskiy and published by Dharma Type. The unmodified copy comes from Slick Overlay and includes its [SIL Open Font License 1.1](fonts/OFL.txt). [Font source](https://github.com/HeyOkay/Slick-Overlay-for-RTSS/tree/main/fonts/Adderley)
+- **CPU, GPU, FPS gauge, and VRAM icons** come from HeyOkay’s Slick Overlay for RTSS. They were cropped, resized, and recolored for this layout. [MIT license](licenses/LICENSE-Slick-Overlay.txt) · [Icon source](https://github.com/HeyOkay/Slick-Overlay-for-RTSS)
+- **Panel base gradient** comes from the Laptop Minibar Smoke background in Faisal’s Apple-Style RTSS Overlays 2.0. The panel sizes, corners, tint, and edge highlights were adapted for this layout. [MIT license](licenses/LICENSE-Apple-Style-RTSS.txt) · [Background source](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/tag/v2.0)
+- **Preview images** were rendered for this repository using the layouts and sample readings.
+
+[Detailed asset credits (Chinese)](docs/third-party-notices.md)
 
 Previews use sample readings. The release is checked for layout references, sprite bounds, and formula structure. Live behavior depends on the game and hardware.

@@ -1,4 +1,4 @@
-# Adderley Overlays for RTSS
+# Glass Islands for RTSS
 
 [English](README.md)
 
@@ -31,6 +31,10 @@
 
 FPS 和帧时间使用 RTSS 原生数据，硬件读数由 OverlayEditor 的 HAL 提供。需要进入被 RTSS 正常捕获的游戏才能看到实时帧率。硬件传感器是否可用取决于 GPU、驱动和 RTSS 版本。
 
+## 1080p 兼容性
+
+1920 × 1080 可以复用同一套 PNG 图集。面板、图标、进度条和警告的摆放位置与显示尺寸由布局控制。现有布局按 2560 × 1440 编排。在 1× 缩放下，要让这条 1046 px 宽的 OSD 在 1920 px 画面上顶部居中，将所有图层（包括时钟和警告）的 X 坐标统一减 **320 px**，左边界就会从 757 px 移到 **437 px**。仓库目前随附的是 1440p 布局。1080p 坐标按布局计算，尚未在游戏中实测。
+
 ## 看懂警告
 
 ![红色卡顿与黄色持续压力](previews/alerts.png)
@@ -61,6 +65,11 @@ FPS 和帧时间使用 RTSS 原生数据，硬件读数由 OverlayEditor 的 HAL
 ## 制作与来源
 
 - [让 Agent 制作 RTSS OSD 的教程](docs/agent-guide.md)
-- [图标、素材和字体许可](docs/third-party-notices.md)
+- **Adderley Bold 字体**由 gorohovskiy 设计、Dharma Type 发布。仓库使用 Slick Overlay 分发的未经修改版本，并附 [SIL Open Font License 1.1](fonts/OFL.txt)。[字体来源](https://github.com/HeyOkay/Slick-Overlay-for-RTSS/tree/main/fonts/Adderley)
+- **CPU、GPU、帧率仪表和显存图标**来自 HeyOkay 的 Slick Overlay for RTSS，已按本布局裁切、缩放和着色。[MIT 许可](licenses/LICENSE-Slick-Overlay.txt) · [图标来源](https://github.com/HeyOkay/Slick-Overlay-for-RTSS)
+- **面板基础渐变**来自 Faisal 的 Apple-Style RTSS Overlays 2.0 中的 Laptop Minibar Smoke 背景，尺寸、圆角、染色和边缘高光均按本布局调整。[MIT 许可](licenses/LICENSE-Apple-Style-RTSS.txt) · [背景来源](https://github.com/realHfde/Apple-Style-Inspired-RTSS-Overlay/releases/tag/v2.0)
+- **预览图**使用本仓库的布局和示例数值渲染。
+
+[完整素材说明](docs/third-party-notices.md)
 
 预览使用示例数值。发布包已检查布局引用、图集边界和公式结构，不同游戏的实时检测仍需在对应环境验证。
