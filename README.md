@@ -1,4 +1,4 @@
-# Adderley 1440p RTSS OSD
+# Adderley Overlays for RTSS
 
 [简体中文](README.zh-CN.md)
 
