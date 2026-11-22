@@ -1,0 +1,932 @@
+[Master]
+Implementation=2
+FontFace=Adderley Bold
+FontHeight=-17
+FontWeight=700
+ZoomRatio=1
+[Settings]
+Name=Adderley 1440p - Neutral
+EnvVars=
+RefreshPeriod=1000
+LockUserSettings=1
+EmbeddedImage=Adderley-1440p-Neutral-Atlas.png
+PingAddr=
+[General]
+Sources=84
+Tables=0
+Layers=36
+[Source0]
+Name=CPU usage
+Units=%
+Format=%.0f
+Formula=
+Provider=HAL
+ID=CPU usage
+[Source1]
+Name=CPU temperature
+Units=°C
+Format=
+Formula=
+Provider=HAL
+ID=CPU temperature
+[Source2]
+Name=CPU power
+Units=W
+Format=
+Formula=
+Provider=HAL
+ID=CPU power
+[Source3]
+Name=CPU clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=CPU clock
+[Source4]
+Name=RAM usage
+Units=GB
+Format=
+Formula=*0.001X
+Provider=HAL
+ID=RAM usage
+[Source5]
+Name=RAM usage percent
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=RAM usage percent
+[Source6]
+Name=GPU1 clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 clock
+[Source7]
+Name=GPU1 memory clock
+Units=MHz
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 memory clock
+[Source8]
+Name=GPU1 voltage
+Units=mV
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 voltage
+[Source9]
+Name=GPU1 temperature
+Units=°C
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 temperature
+[Source10]
+Name=GPU1 temperature 2
+Units=°C
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 temperature 2
+[Source11]
+Name=GPU1 fan speed
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 fan speed
+[Source12]
+Name=GPU1 fan tachometer
+Units=RPM
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 fan tachometer
+[Source13]
+Name=GPU1 usage
+Units=%
+Format=%.0f
+Formula=
+Provider=HAL
+ID=GPU1 usage
+[Source14]
+Name=GPU1 power
+Units=W
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 power
+[Source15]
+Name=GPU1 memory usage
+Units=MB
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 memory usage
+[Source16]
+Name=GPU1 memory usage percent
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 memory usage percent
+[Source17]
+Name=Commit charge
+Units=MB
+Format=
+Formula=
+Provider=HAL
+ID=Commit charge
+[Source18]
+Name=CPU17 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU17 usage
+[Source19]
+Name=CPU18 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU18 usage
+[Source20]
+Name=CPU19 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU19 usage
+[Source21]
+Name=CPU20 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU20 usage
+[Source22]
+Name=Display1 refresh rate
+Units=Hz
+Format=
+Formula=
+Provider=HAL
+ID=Display1 refresh rate
+[Source23]
+Name=RAM usage
+Units=MB
+Format=
+Formula=
+Provider=HAL
+ID=RAM usage
+[Source24]
+Name=RAM usage percent
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=RAM usage percent
+[Source25]
+Name=GPU1 fan tachometer
+Units=RPM
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 fan tachometer
+[Source26]
+Name=GPU1 memory usage \ process
+Units=MB
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 memory usage \ process
+[Source27]
+Name=CPU1 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU1 usage
+[Source28]
+Name=CPU2 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU2 usage
+[Source29]
+Name=CPU3 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU3 usage
+[Source30]
+Name=CPU4 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU4 usage
+[Source31]
+Name=CPU5 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU5 usage
+[Source32]
+Name=CPU6 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU6 usage
+[Source33]
+Name=CPU7 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU7 usage
+[Source34]
+Name=CPU8 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU8 usage
+[Source35]
+Name=CPU9 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU9 usage
+[Source36]
+Name=CPU10 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU10 usage
+[Source37]
+Name=CPU11 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU11 usage
+[Source38]
+Name=CPU12 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU12 usage
+[Source39]
+Name=CPU13 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU13 usage
+[Source40]
+Name=CPU14 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU14 usage
+[Source41]
+Name=CPU15 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU15 usage
+[Source42]
+Name=CPU16 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU16 usage
+[Source43]
+Name=CPU17 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU17 usage
+[Source44]
+Name=CPU18 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU18 usage
+[Source45]
+Name=CPU19 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU19 usage
+[Source46]
+Name=CPU20 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU20 usage
+[Source47]
+Name=CPU21 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU21 usage
+[Source48]
+Name=CPU22 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU22 usage
+[Source49]
+Name=CPU23 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU23 usage
+[Source50]
+Name=CPU24 usage
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU24 usage
+[Source51]
+Name=GPU1 memory temperature
+Units=°C
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 memory temperature
+[Source52]
+Name=CpuPeakLoad
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=CPU usage max
+[Source53]
+Name=LagRtssBase
+Units=
+Format=
+Formula=swavg("Frametime",240)
+Provider=HAL
+ID=Stub
+[Source54]
+Name=LagRtssWindow
+Units=
+Format=
+Formula=validate(LagRtssBase) ? min(512,max(6,int(1400/max(1,LagRtssBase)))) : 6
+Provider=HAL
+ID=Stub
+[Source55]
+Name=LagRtssPeak
+Units=
+Format=
+Formula=swmax("Frametime",LagRtssWindow)
+Provider=HAL
+ID=Stub
+[Source56]
+Name=LagRtssHit
+Units=
+Format=
+Formula=(validate(buf("Frametime",-8)) && validate(LagRtssPeak) && validate(LagRtssBase)) ? ((LagRtssBase > 0) && (LagRtssPeak >= max(LagRtssBase*1.75,LagRtssBase+8.0))) : 0
+Provider=HAL
+ID=Stub
+[Source57]
+Name=BnNativeMean
+Units=
+Format=
+Formula=swavg("Frametime",120)
+Provider=HAL
+ID=Stub
+[Source58]
+Name=BnNativeCount
+Units=
+Format=
+Formula=validate(BnNativeMean) ? min(512,max(8,int(1000/max(1,BnNativeMean)))) : 8
+Provider=HAL
+ID=Stub
+[Source59]
+Name=BnNativeCurrent
+Units=
+Format=
+Formula=swavg("Frametime",BnNativeCount)
+Provider=HAL
+ID=Stub
+[Source60]
+Name=BnFps
+Units=
+Format=
+Formula=(validate("Frametime") && validate(buf("Frametime",-8)) && validate(BnNativeCurrent)) ? ((BnNativeCurrent > 0) ? 1000.0/BnNativeCurrent : 1/0) : 1/0
+Provider=HAL
+ID=Stub
+[Source61]
+Name=BnSessionAge
+Units=
+Format=
+Formula=validate(BnFps) ? (validate(buf(x,-1)) ? min(15,buf(x,-1)+1) : 1) : 0
+Provider=HAL
+ID=Stub
+[Source62]
+Name=BnReference
+Units=
+Format=
+Formula=swmax(BnFps,max(1,BnSessionAge))
+Provider=HAL
+ID=Stub
+[Source63]
+Name=BnSlow
+Units=
+Format=
+Formula=((BnSessionAge >= 4) && validate(BnReference) && validate(BnFps)) ? (BnFps <= BnReference*0.92) : 0
+Provider=HAL
+ID=Stub
+[Source64]
+Name=BnFpsActive
+Units=
+Format=
+Formula=validate(BnFps) ? (BnFps > 0) : (validate("Framerate") ? ("Framerate" > 0) : 0)
+Provider=HAL
+ID=Stub
+[Source65]
+Name=BnCandidate
+Units=
+Format=
+Formula=(BnFpsActive && validate("GPU1 usage")) ? (("GPU1 usage" >= 92) ? 6 : (validate(CpuPeakLoad) ? (((("GPU1 usage" <= 85) && (CpuPeakLoad >= 90) && BnSlow) || (("GPU1 usage" <= 80) && (CpuPeakLoad >= 98))) ? 5 : 0) : 0)) : 0
+Provider=HAL
+ID=Stub
+[Source66]
+Name=BnReason
+Units=
+Format=
+Formula=((BnCandidate > 0) && validate(buf(BnCandidate,-2)) && validate(buf(BnCandidate,-3)) && validate(buf(BnCandidate,-4)) && validate(buf(BnCandidate,-5))) ? (((BnCandidate == buf(BnCandidate,-2)) && (BnCandidate == buf(BnCandidate,-3)) && (BnCandidate == buf(BnCandidate,-4)) && (BnCandidate == buf(BnCandidate,-5))) ? BnCandidate : 0) : 0
+Provider=HAL
+ID=Stub
+[Source67]
+Name=ShortCpuHint
+Units=
+Format=
+Formula=(validate(CpuPeakLoad) && validate("GPU1 usage") && validate(buf(CpuPeakLoad,-2)) && validate(buf("GPU1 usage",-2))) ? ((CpuPeakLoad >= 95) && (CpuPeakLoad >= buf(CpuPeakLoad,-2)+15) && ("GPU1 usage" <= 85)) : 0
+Provider=HAL
+ID=Stub
+[Source68]
+Name=ShortGpuHint
+Units=
+Format=
+Formula=(validate(CpuPeakLoad) && validate("GPU1 usage") && validate(buf(CpuPeakLoad,-2)) && validate(buf("GPU1 usage",-2))) ? (("GPU1 usage" >= 95) && ("GPU1 usage" >= buf("GPU1 usage",-2)+12) && ((CpuPeakLoad < 90) || (CpuPeakLoad < buf(CpuPeakLoad,-2)+8))) : 0
+Provider=HAL
+ID=Stub
+[Source69]
+Name=LagSensorReason
+Units=
+Format=
+Formula=LagRtssHit ? (ShortCpuHint ? 1 : (ShortGpuHint ? 2 : 4)) : 0
+Provider=HAL
+ID=Stub
+[Source70]
+Name=LagPulseCPU
+Units=
+Format=
+Formula=(LagSensorReason == 1) && (validate(swmax(x,11)) ? (swmax(x,11) == 0) : 1)
+Provider=HAL
+ID=Stub
+[Source71]
+Name=LagPulseGPU
+Units=
+Format=
+Formula=(LagSensorReason == 2) && (validate(swmax(x,11)) ? (swmax(x,11) == 0) : 1)
+Provider=HAL
+ID=Stub
+[Source72]
+Name=LagPulseSPIKE
+Units=
+Format=
+Formula=(LagSensorReason == 4) && (validate(swmax(x,11)) ? (swmax(x,11) == 0) : 1)
+Provider=HAL
+ID=Stub
+[Source73]
+Name=LagNewShortPulse
+Units=
+Format=
+Formula=LagPulseCPU+2*LagPulseGPU+4*LagPulseSPIKE
+Provider=HAL
+ID=Stub
+[Source74]
+Name=LagShortShown
+Units=
+Format=
+Formula=(LagNewShortPulse > 0) ? LagNewShortPulse : (validate(buf(LagNewShortPulse,-2)) ? buf(LagNewShortPulse,-2) : 0)
+Provider=HAL
+ID=Stub
+[Source75]
+Name=BnCpuState
+Units=
+Format=
+Formula=validate(buf(x,-1)) ? ((buf(x,-1) > 0) ? (((BnReason == 5) && (buf(x,-1) > 1)) ? (buf(x,-1)-1) : -10) : ((buf(x,-1) < -1) ? (buf(x,-1)+1) : (((BnReason == 5) && (LagShortShown == 0)) ? 15 : 0))) : (((BnReason == 5) && (LagShortShown == 0)) ? 15 : 0)
+Provider=HAL
+ID=Stub
+[Source76]
+Name=BnGpuState
+Units=
+Format=
+Formula=validate(buf(x,-1)) ? ((buf(x,-1) > 0) ? (((BnReason >= 6) && (buf(x,-1) > 1)) ? (buf(x,-1)-1) : -10) : ((buf(x,-1) < -1) ? (buf(x,-1)+1) : (((BnReason >= 6) && (LagShortShown == 0)) ? 15 : 0))) : (((BnReason >= 6) && (LagShortShown == 0)) ? 15 : 0)
+Provider=HAL
+ID=Stub
+[Source77]
+Name=LagShownReason
+Units=
+Format=
+Formula=(LagShortShown > 0) ? LagShortShown : ((BnCpuState > 0) ? 5 : ((BnGpuState > 0) ? BnReason : 0))
+Provider=HAL
+ID=Stub
+[Source78]
+Name=LagRedVisible
+Units=
+Format=
+Formula=validate(LagShownReason) ? ((LagShownReason > 0) && (LagShownReason <= 4)) : 0
+Provider=HAL
+ID=Stub
+[Source79]
+Name=LagVisible
+Units=
+Format=
+Formula=validate(LagShownReason) ? (LagShownReason > 0) : 0
+Provider=HAL
+ID=Stub
+[Source80]
+Name=LagClockVisible
+Units=
+Format=
+Formula=validate(LagVisible) ? (LagVisible == 0) : 1
+Provider=HAL
+ID=Stub
+[Source81]
+Name=FPS icon position
+Units=
+Format=
+Formula=validate("Framerate") ? (("Framerate" < 9.5) ? 0 : (("Framerate" < 99.5) ? 1 : (("Framerate" < 999.5) ? 2 : 3))) : 3
+Provider=HAL
+ID=Stub
+[Source82]
+Name=GpuHotspotAvailable
+Units=
+Format=
+Formula=validate("GPU1 temperature 2") ? ("GPU1 temperature 2" > 0) : 0
+Provider=HAL
+ID=Stub
+[Source83]
+Name=GpuCoreOnly
+Units=
+Format=
+Formula=(GpuHotspotAvailable == 0) ? (validate("GPU1 temperature") ? ("GPU1 temperature" > 0) : 0) : 0
+Provider=HAL
+ID=Stub
+[Layer0]
+Name=Time panel
+VisibilitySource=LagClockVisible
+Text=<I=0,0,0,178,38,30>
+PositionX=757
+PositionY=10
+ExtentX=76
+ExtentY=30
+ExtentOrigin=0
+[Layer1]
+Name=FPS panel
+Text=<I=0,0,42,178,91,30>
+PositionX=843
+PositionY=10
+ExtentX=182
+ExtentY=30
+ExtentOrigin=0
+[Layer2]
+Name=CPU panel
+Text=<I=0,0,0,224,171,30>
+PositionX=1035
+PositionY=10
+ExtentX=342
+ExtentY=30
+ExtentOrigin=0
+[Layer3]
+Name=GPU panel
+Text=<I=0,0,177,224,208,30>
+PositionX=1387
+PositionY=10
+ExtentX=416
+ExtentY=30
+ExtentOrigin=0
+[Layer4]
+Name=FPS icon
+Text=<AI=FPS icon position,52,34,0,4,0,320,52,34,4,4,0.5,0,0>
+PositionX=851
+PositionY=8
+ExtentX=52
+ExtentY=34
+ExtentOrigin=0
+TextColor=B8C5D8
+[Layer5]
+Name=CPU icon
+Text=<I=0,0,168,178,24,34>
+PositionX=1049
+PositionY=8
+ExtentX=22
+ExtentY=34
+ExtentOrigin=0
+TextColor=65B6F6
+[Layer6]
+Name=GPU icon
+Text=<I=0,0,194,178,24,34>
+PositionX=1400
+PositionY=8
+ExtentX=22
+ExtentY=34
+ExtentOrigin=0
+TextColor=B98CFF
+[Layer7]
+Name=CPU load bar
+Text=<AI=CPU usage,28,8,0,101,0,0,30,8,101,10,0.5,0,0>
+PositionX=1183
+PositionY=21
+ExtentX=28
+ExtentY=8
+ExtentOrigin=0
+[Layer8]
+Name=CPU load percent
+Text=%CPU usage%%
+PositionX=1140
+PositionY=10
+ExtentX=38
+ExtentY=34
+ExtentOrigin=5
+TextColor=F5F8FD,0,50,DCEFE5,50,110(CPU usage,0)
+[Layer9]
+Name=GPU load bar
+Text=<AI=GPU1 usage,28,8,0,101,0,88,30,8,101,10,0.5,0,0>
+PositionX=1534
+PositionY=21
+ExtentX=28
+ExtentY=8
+ExtentOrigin=0
+[Layer10]
+Name=GPU load percent
+Text=%GPU1 usage%%
+PositionX=1491
+PositionY=10
+ExtentX=38
+ExtentY=34
+ExtentOrigin=5
+TextColor=F5F8FD,0,90,E8D9FF,90,110(GPU1 usage,0)
+[Layer11]
+Name=Clock
+VisibilitySource=LagClockVisible
+Text=%Time24%
+PositionX=761
+PositionY=10
+ExtentX=68
+ExtentY=34
+ExtentOrigin=4
+TextColor=C0CAD8
+[Layer12]
+Name=Frame rate
+Text=%Framerate% <C=AAB8CD>FPS<C>
+PositionX=875
+PositionY=10
+ExtentX=61
+ExtentY=34
+ExtentOrigin=5
+TextColor=F5F8FD
+[Layer13]
+Name=Frame separator
+Text=/
+PositionX=941
+PositionY=10
+ExtentX=8
+ExtentY=34
+ExtentOrigin=4
+TextColor=C0CAD8
+[Layer14]
+Name=Frame time
+Text=%Frametime% <C=AAB8CD>ms<C>
+PositionX=953
+PositionY=10
+ExtentX=67
+ExtentY=34
+ExtentOrigin=3
+TextColor=F5F8FD
+[Layer15]
+Name=CPU model
+Text=13980HX
+PositionX=1075
+PositionY=10
+ExtentX=61
+ExtentY=34
+ExtentOrigin=3
+TextColor=84C6FF
+[Layer16]
+Name=CPU clock
+Text=%CPU clock%
+PositionX=1214
+PositionY=10
+ExtentX=33
+ExtentY=34
+ExtentOrigin=5
+TextColor=F5F8FD
+[Layer17]
+Name=CPU clock unit
+Text=MHz
+PositionX=1247
+PositionY=10
+ExtentX=29
+ExtentY=34
+ExtentOrigin=3
+TextColor=AAB8CD
+[Layer18]
+Name=CPU temperature
+Text=%CPU temperature%
+PositionX=1281
+PositionY=10
+ExtentX=24
+ExtentY=34
+ExtentOrigin=5
+TextColor=F5F8FD,0,90,FFACA5,90,110(CPU temperature,0)
+[Layer19]
+Name=CPU temp unit
+Text=°C
+PositionX=1305
+PositionY=10
+ExtentX=16
+ExtentY=34
+ExtentOrigin=3
+TextColor=AAB8CD,0,90,FFACA5,90,110(CPU temperature,0)
+[Layer20]
+Name=CPU power
+Text=%CPU power%
+PositionX=1327
+PositionY=10
+ExtentX=24
+ExtentY=34
+ExtentOrigin=5
+TextColor=F5F8FD
+[Layer21]
+Name=CPU power unit
+Text=W
+PositionX=1351
+PositionY=10
+ExtentX=14
+ExtentY=34
+ExtentOrigin=3
+TextColor=AAB8CD
+[Layer22]
+Name=GPU model
+Text=7900XT
+PositionX=1426
+PositionY=10
+ExtentX=61
+ExtentY=34
+ExtentOrigin=3
+TextColor=D4B6FF
+[Layer23]
+Name=GPU clock
+Text=%GPU1 clock%
+PositionX=1565
+PositionY=10
+ExtentX=33
+ExtentY=34
+ExtentOrigin=5
+TextColor=F5F8FD
+[Layer24]
+Name=GPU clock unit
+Text=MHz
+PositionX=1598
+PositionY=10
+ExtentX=29
+ExtentY=34
+ExtentOrigin=3
+TextColor=AAB8CD
+[Layer25]
+Name=GPU core temp
+VisibilitySource=GpuHotspotAvailable
+Text=%GPU1 temperature%/
+PositionX=1632
+PositionY=10
+ExtentX=28
+ExtentY=34
+ExtentOrigin=5
+TextColor=F5F8FD
+[Layer26]
+Name=GPU hotspot
+VisibilitySource=GpuHotspotAvailable
+Text=%GPU1 temperature 2%
+PositionX=1660
+PositionY=10
+ExtentX=21
+ExtentY=34
+ExtentOrigin=5
+TextColor=F5F8FD,0,85,F5F8FD,85,85,FFACA5,85,120(GPU1 temperature 2,1)
+[Layer27]
+Name=GPU hotspot unit
+VisibilitySource=GpuHotspotAvailable
+Text=°C
+PositionX=1681
+PositionY=10
+ExtentX=13
+ExtentY=34
+ExtentOrigin=3
+TextColor=AAB8CD,0,85,AAB8CD,85,85,FFACA5,85,120(GPU1 temperature 2,0)
+[Layer28]
+Name=GPU core only
+VisibilitySource=GpuCoreOnly
+Text=%GPU1 temperature%<C=AAB8CD>°C<C>
+PositionX=1632
+PositionY=10
+ExtentX=62
+ExtentY=34
+ExtentOrigin=5
+TextColor=F5F8FD
+[Layer29]
+Name=VRAM icon
+VisibilitySource=GPU1 memory temperature
+Text=<I=12,34,220,178,12,34>
+PositionX=1699
+PositionY=8
+ExtentX=12
+ExtentY=34
+ExtentOrigin=0
+TextColor=BDA8E3
+[Layer30]
+Name=VRAM temp
+VisibilitySource=GPU1 memory temperature
+Text=%GPU1 memory temperature%
+PositionX=1714
+PositionY=10
+ExtentX=23
+ExtentY=34
+ExtentOrigin=5
+TextColor=F5F8FD,0,85,F5F8FD,85,85,FFACA5,85,120(GPU1 temperature 2,1)
+[Layer31]
+Name=VRAM temp unit
+VisibilitySource=GPU1 memory temperature
+Text=°C
+PositionX=1737
+PositionY=10
+ExtentX=13
+ExtentY=34
+ExtentOrigin=3
+TextColor=AAB8CD,0,85,AAB8CD,85,85,FFACA5,85,120(GPU1 temperature 2,0)
+[Layer32]
+Name=GPU power
+Text=%GPU1 power%
+PositionX=1753
+PositionY=10
+ExtentX=24
+ExtentY=34
+ExtentOrigin=5
+TextColor=F5F8FD,0,300,FFACA5,300,500(GPU1 power,0)
+[Layer33]
+Name=GPU power unit
+Text=W
+PositionX=1777
+PositionY=10
+ExtentX=14
+ExtentY=34
+ExtentOrigin=3
+TextColor=AAB8CD,0,300,FFACA5,300,400(GPU1 power,0)
+[Layer34]
+Name=Lag island
+VisibilitySource=LagRedVisible
+Text=<I=0,0,0,272,38,30>
+PositionX=757
+PositionY=10
+ExtentX=76
+ExtentY=30
+ExtentOrigin=0
+[Layer35]
+Name=Aligned warning and label
+VisibilitySource=LagVisible
+Text=<AI=LagShownReason,76,34,1,7,0,356,76,34,6,4,0.5,0,0>
+PositionX=757
+PositionY=8
+ExtentX=76
+ExtentY=34
+ExtentOrigin=0

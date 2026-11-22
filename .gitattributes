@@ -1,0 +1,4 @@
+# Keep RTSS layout bytes and line endings intact across Git checkouts.
+*.ovl -text
+*.png binary
+*.ttf binary
