@@ -4,7 +4,7 @@
 
 A four-panel RTSS overlay designed for 2560 × 1440 gameplay. It shows the clock, FPS, frame time, and CPU and GPU utilization, clock speeds, temperatures, and power. Alerts appear in place of the clock.
 
-![Preview of all three themes](previews/themes.png)
+![Preview of all three themes](previews/themes.en.png)
 
 ## Themes
 
