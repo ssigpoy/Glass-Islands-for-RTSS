@@ -1,4 +1,4 @@
-# Glass Islands for RTSS
+![Glass Islands for RTSS](previews/banner.svg)
 
 Four glass-style panels for **RTSS OverlayEditor**, designed for **2560 × 1440** gameplay.
 

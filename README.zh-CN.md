@@ -1,4 +1,4 @@
-# Glass Islands for RTSS
+![Glass Islands for RTSS](previews/banner.svg)
 
 为 **2560 × 1440** 游戏画面设计的四岛玻璃风格 OSD，使用 **RTSS OverlayEditor**。
 
